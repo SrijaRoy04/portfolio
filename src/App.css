@@ -1,0 +1,18 @@
+/* App.css - External CSS File */
+
+/* Example of custom external CSS for specific component styling */
+.custom-highlight {
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-highlight:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(77, 142, 255, 0.15);
+}
+
+/* Ensuring images are responsive */
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
