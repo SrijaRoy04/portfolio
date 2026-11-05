@@ -45,7 +45,7 @@ export default function Navbar() {
             </a>
           </div>
           <div className="flex items-center pl-space-xs">
-            <img alt="Profile" className="w-8 h-8 rounded-full object-cover shadow-[0_0_12px_-2px_rgba(77,142,255,0.4)]" src="/srija_profile_pic.png" />
+            <img alt="Profile" className="w-8 h-8 rounded-full object-cover shadow-[0_0_12px_-2px_rgba(77,142,255,0.4)]" src={`${import.meta.env.BASE_URL}srija_profile_pic.png`} />
           </div>
         </div>
       </div>
